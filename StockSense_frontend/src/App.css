@@ -1,0 +1,65 @@
+.sign-in-container {
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* background-image: linear-gradient(0deg, rgb(51, 102, 255), rgb(0, 26, 102)); */
+    background-color: #23262B;
+}
+
+.edit-container {
+
+    height: 100%;
+    width: 100%;
+    right: 0%;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+     background-color: #23262B;
+}
+
+.addproduct-container {
+
+    height: 100%;
+    width: 100%;
+    right: 0%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.60);
+    opacity: 1;
+    transition: opacity 2000ms ease;
+    z-index: 9;
+}
+
+.home-container::-webkit-scrollbar {
+    display: none;
+}
+
+.home-container {
+    width: 100%;
+    right: 0%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #050418;
+    height: 95%;
+    bottom: 0%;
+    overflow: auto;
+    /* padding-bottom: 5%; */
+}
+
+.main-layout::-webkit-scrollbar {
+    display: none;
+}
+
+.main-con {
+
+    background-color: #050418;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    right: 0%;
+}
