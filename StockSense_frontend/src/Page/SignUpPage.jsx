@@ -23,7 +23,7 @@ const SignUpPage = () => {
         if (response.data === false) {
           alert("User already exist");
         } else {
-          navigate("/home");
+          navigate("/main");
         }
       });
     } catch (err) {
@@ -145,7 +145,7 @@ const SignUpPage = () => {
                           color: "#fff",
                         }}
                       >
-                        Sign in
+                        Sign up
                       </Button>
                     </Box>
                   </Grid>

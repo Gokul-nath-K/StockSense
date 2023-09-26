@@ -18,7 +18,6 @@ import AddBoxOutlinedIcon from "@mui/icons-material/AddBoxOutlined";
 import EditOutlinedIcon from "@mui/icons-material/EditOutlined";
 import { makeStyles } from "@material-ui/core";
 import DeleteOutlineOutlinedIcon from "@mui/icons-material/DeleteOutlineOutlined";
-
 import React, { useContext, useEffect, useState } from "react";
 import { productContext } from "../Data/ProductContext";
 import AddProduct from "./AddProduct";

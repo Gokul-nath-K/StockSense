@@ -51,7 +51,7 @@ public class ProductService {
 			Pageable paging = PageRequest.of(page_no, page_size, Sort.by(Direction.DESC, field));
 			
 			Page<Products> pageResult = repo.findAll(paging);
-			
+				
 			return pageResult.getContent();
 		}
 	}
